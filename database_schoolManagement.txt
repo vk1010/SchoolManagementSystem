@@ -1,0 +1,49 @@
+//create database with name SchoolManaagement;
+
+create database SchoolManagement;
+
+//use database command
+use SchoolManagement;
+
+
+//create table Student
+create table Student
+(
+id int,
+name varchar(100),
+grade int,
+feesPaid int default 0,
+feesTotal int default 30000,
+password varchar(50) default "Student",
+primary key(id)
+);
+//insert values in Student
+insert into Student(id,name,grade,feesPaid) values(1,"Jay",12,30000),(2,"Manish",10,0),(3,"Kundan",6,0);
+
+
+
+// create table Teacher
+create table Teacher
+(
+id int,
+name varchar(100),
+salary int,
+salaryEarned int default 0,
+password varchar(100) default "Teacher"
+primary key(id)
+);
+
+//insert values in Teacher
+insert into Teacher(id,name,salary,salaryEarned) values(1001,"Siddhesh",60000,60000),(1002,"Saurabh",45000,45000),(1003;"Masud",65000,65000);	
+
+
+// create table School
+create table School
+(
+totalMoneyEarned int,
+totalMoneySpent int
+);
+
+//insert values in School 
+insert into School values(-140000,170000);
+
