@@ -34,7 +34,7 @@ primary key(id)
 );
 
 //insert values in Teacher
-insert into Teacher(id,name,salary,salaryEarned) values(1001,"Siddhesh",60000,60000),(1002,"Saurabh",45000,45000),(1003;"Masud",65000,65000);	
+insert into Teacher(id,name,salary,salaryEarned) values(1001,"Siddhesh",60000,60000),(1002,"Saurabh",45000,45000),(1003,"Masud",65000,65000);	
 
 
 // create table School
