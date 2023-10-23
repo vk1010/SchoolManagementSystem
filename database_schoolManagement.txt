@@ -29,7 +29,7 @@ id int,
 name varchar(100),
 salary int,
 salaryEarned int default 0,
-password varchar(100) default "Teacher"
+password varchar(100) default "Teacher",
 primary key(id)
 );
 
